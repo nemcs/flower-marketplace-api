@@ -38,4 +38,5 @@ func main() {
 	courierRepo := repository.NewCourierRepoPostgres(db)
 	courierSvc := service.NewCourierService(courierRepo)
 	courierHttp.NewCourierHandler(r, courierSvc)
+	//
 }
