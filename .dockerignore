@@ -1,0 +1,8 @@
+/tmp
+/migrations
+/build
+.dockerignore
+Dockerfile
+README.md
+*.md
+.git
